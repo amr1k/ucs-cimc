@@ -2,6 +2,14 @@ import secrets
 import requests
 import sys
 
+#
+# secrets.py needs to define the following variable
+#   server      =   "<UCS Server IP/FQDN>"
+#   auth        =   "Basic Auth Token"
+#
+
+
+
 #   The follow power states are allowed
 #       "On",
 #       "ForceOff",
